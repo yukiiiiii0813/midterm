@@ -1,0 +1,138 @@
+body{
+    background-color: #fefcf2;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+div{
+    margin: 0px 64px 0 64px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+    background-color: #252525;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+ul {
+    list-style: none;
+    font-size: 16px;
+    text-align: right;
+    margin-right: 80px;
+}
+
+li:first-child {
+    margin-left: 0;
+}
+
+li {
+    display: inline-block;
+    margin-left: 40px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+h1{  
+    text-align: center;
+    background-color: #bf9c5c;
+    padding: 12px;
+    margin: 48px 64px 64px 64px;
+}
+img{
+    width: 50%;
+    min-height: 480px;
+    min-width: 624px;
+}
+.intro{
+     display: flex;
+}
+.intro p{
+    padding-top: 0;
+    font-size: 20px;
+}
+.intro h2{
+    margin-top: 72px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    text-align: center;
+    font-size: 48px;
+}
+.intro_text{
+    width: 100%;
+}
+.restaurants img{
+    width: 760px;
+    height: 480px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.restaurants{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.restaurants p {
+    padding-top: 0;
+    font-size: 20px;
+}
+.restaurants h2{
+    font-size: 48px;
+    margin-top: 48px;
+    margin-bottom: 0;
+}
+.block{
+    width: 104px;
+    height: 4px;
+    margin-left: 0px;
+    margin-bottom: 24px;
+    background-color: #101d31;
+}
+input{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+.block2{
+    width: 100%;
+    height: 200px;
+}
+iframe{
+    width: 100%;
+
+}
+.google_map{
+    margin: 24px 64px;
+    margin-bottom: 0;
+
+}
+header img{
+    z-index: 50;
+}
+footer{
+    background-color: #252525;
+    width: 100%;
+    height: 144px;
+}
+.home {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 80px;
+}
+p{
+    font-family: 'Laila', sans-serif;
+}
+h3{
+    padding: 24px;
+    font-size: 24px;
+    background-color: #252525;
+    margin: 0;
+    color: white;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
